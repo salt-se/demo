@@ -3,7 +3,7 @@
 HOST=saltdemo.sytes.net
 S1=/usr/local/bin/startup_script.sh
 
-sudo dnf install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-9.noarch.rpm
+sudo dnf install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
 sudo dnf install -y vim unzip wget python3 python3-pip
 pip3 install noipy
 noipy --store -u gilesdj@gmail.com -p Snoopy*13 -n $HOST --provider noip
